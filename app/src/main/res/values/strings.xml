@@ -1,0 +1,12 @@
+<resources>
+    <!-- App -->
+    <string name="app_name">QR Code Generator</string>
+
+    <!-- Home -->
+    <string name="home_menu">Home</string>
+
+    <!-- Register -->
+    <string name="register_menu">Register</string>
+    <string name="register_name">Name</string>
+    <string name="register_address">Address</string>
+</resources>

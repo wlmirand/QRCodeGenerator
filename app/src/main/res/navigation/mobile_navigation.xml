@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/fragment_home">
+
+    <fragment
+        android:id="@+id/fragment_home"
+        android:name="miranda.william.qrcodegenerator.ui.home.HomeFragment"
+        android:label="@string/home_menu"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/toRegisterFragment"
+            app:destination="@id/fragment_register" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_register"
+        android:name="miranda.william.qrcodegenerator.ui.register.RegisterFragment"
+        android:label="@string/register_menu"
+        tools:layout="@layout/fragment_register" />
+</navigation>
